@@ -43,7 +43,7 @@ function Footer() {
 									to="https://www.facebook.com/priyank.agarwal1205"
 									title="Facebook"
 								>
-									<i class="fa fa-facebook-f"></i>
+									<i className="fa fa-facebook-f"></i>
 								</Link>
 							</li>
 							<li>

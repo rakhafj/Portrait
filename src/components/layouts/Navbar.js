@@ -15,7 +15,7 @@ const Navigation = () => {
 		<Styles>
 			<Navbar variant="light" expand="md">
 				<Container>
-					<Link>
+					<Link to="/">
 						<Navbar.Brand>
 							<img
 								src={`images/logo-1.png`}
@@ -32,7 +32,7 @@ const Navigation = () => {
 						<NavLink className="nav-link" to="/collection">
 							Collection
 						</NavLink>
-						<NavLink className="nav-link" to="/c">
+						<NavLink className="nav-link" to="/contact">
 							Contact
 						</NavLink>
 					</Nav>

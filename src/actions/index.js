@@ -1,19 +1,9 @@
-export const GET_CATEGORY = 'GET_COLLECTION_CATEGORY';
+export const GET_CATEGORY = 'GET_CATEGORY';
 
-export const getCategory = (category) => {
-	return async (dispatch) => {
-		dispatch({
-			type: GET_CATEGORY,
-			category,
-		});
-	};
-};
 
-// export function incrementAsync() {
-// 	return async (dispatch) => {
+export const getCategory = (category) => ({
+	type: GET_CATEGORY,
+	category,
+});
 
-// 		setTimeout(() => {
-// 			dispatch(_add());
-// 		}, 5000);
-// 	};
-// }
+
